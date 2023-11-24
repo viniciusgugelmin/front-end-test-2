@@ -1,4 +1,4 @@
-import { Header } from "../layouts";
+import { Footer, Header } from "../layouts";
 
 import { HomePage } from "../pages";
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <Header />
       <HomePage />
+      <Footer />
     </>
   );
 }
